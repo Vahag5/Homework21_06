@@ -9,3 +9,11 @@ def print_pattern(x):
 x = 5
 print("Input number is:", x)
 print_pattern(x)
+
+
+'''Input number is: 5
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 '''
