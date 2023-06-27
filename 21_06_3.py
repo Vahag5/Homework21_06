@@ -1,10 +1,4 @@
 password = input("write password: ")
-
 secret_password = "50155vv"
-
-if password == secret_password :
-    message = "success"
-else :
-    message = ("error")
-
+message = "success"  if password == secret_password else "error"
 print(message)
