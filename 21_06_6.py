@@ -1,17 +1,18 @@
 def find_prime_factors(x):
     ls= []
-    i = 1
+    i = 2
     while x >= i:
         if x % i == 0   :
             ls.append(i)
-            i +=1
-        x -=1
+            x = x //i
+        else :
+            i += 1
     return ls
 
 
 print(find_prime_factors(36))
 
-#[1, 2, 3, 4, 5, 6, 7, 8, 9]
+#[2, 2, 3, 3]
 
 
 
