@@ -1,6 +1,6 @@
 while True:
-    num1 = int(input("Greq arajin tiv@: "))
-    num2 = int(input("Greq ekrord tiv@: "))
+    num1 = float(input("Greq arajin tiv@: "))
+    num2 = float(input("Greq ekrord tiv@: "))
     gorc = input("please select +, -, /, * or Q(For quit): ")
     if gorc == '+' :
         sum = num1 + num2
